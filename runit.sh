@@ -5,4 +5,4 @@
 
 echo "###########Sniffing interface from container################ "
 echo
-while sleep 1 ; do  docker run -ti sniffit ./handle /bin/bash ;done
+while sleep 1 ; do  docker run -ti sniffit1 ./handle /bin/bash ;done
