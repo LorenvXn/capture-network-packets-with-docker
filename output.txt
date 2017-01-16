@@ -1,14 +1,4 @@
-#./runit.sh
-14.04: Pulling from library/ubuntu
-16da43b30d89: Downloading [==>                                                ] 2.689 MB/65.69 MB
-1840843dafed: Download complete
-91246eb75b7d: Download complete
-7faa681b41d7: Download complete
-97b84c64d426: Download complete
-^C
-root@tron:~/sniffer#
-root@tron:~/sniffer#
-root@tron:~/sniffer# ./runit.sh
+# ./runit.sh
 Sending build context to Docker daemon 57.34 kB
 Step 1 : FROM ubuntu:14.04
 14.04: Pulling from library/ubuntu
