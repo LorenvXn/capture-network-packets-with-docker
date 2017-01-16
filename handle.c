@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
          char dev[] = "eth0";
          char errbuf[PCAP_ERRBUF_SIZE];
          struct bpf_program fp;
-         char filter_exp[] = "port 22022";
+         char filter_exp[] = "port 22";
          bpf_u_int32 mask;
          bpf_u_int32 net;
         struct pcap_pkthdr header;
