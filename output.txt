@@ -466,12 +466,4 @@ Removing intermediate container 5d655fe414af
 Successfully built bf0b9fc0f82e
 ###########Sniffing interface from container################
 
-Packet length of 32651 from device eth0
-Packet length of 32731 from device eth0
-Packet length of 32684 from device eth0
-Packet length of 32555 from device eth0
-Packet length of 32669 from device eth0
-Packet length of 32629 from device eth0
-Packet length of 32522 from device eth0
-Packet length of 32638 from device eth0
-^C
+Packet length of 60 from device eth0
