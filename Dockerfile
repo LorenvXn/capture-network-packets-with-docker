@@ -6,3 +6,4 @@ RUN  apt-get -y install libpcap0.8-dev
 COPY . /home
 WORKDIR /home
 RUN  gcc handle.c -o handle -lpcap
+EXPOSE 8080
