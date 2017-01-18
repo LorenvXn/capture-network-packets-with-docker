@@ -3,12 +3,12 @@
 
 int main(int argc, char **argv){
         char *device;
-        char error_buffer[PCAP_ERRBUF_SIZE];
-        char *pcap_lookupdev(char *error_buffer);
+        char err_buffer[PCAP_ERRBUF_SIZE];
+        char *pcap_lookupdev(char *err_buffer);
 
-        device = pcap_lookupdev(error_buffer);
+        device = pcap_lookupdev(err_buffer);
         if(device==NULL){
-                printf("not finding device: %s\n", error_buffer);
+                printf("not finding device: %s\n", err_buffer);
                 return 1;
         }
 
