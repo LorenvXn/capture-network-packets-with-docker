@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
             BUFSIZ,
             0,
             timeout_limit,
-            error_buffer
+            err_buffer
         );
     if (handle == NULL) {
          fprintf(stderr, "Cannot open device %s: %s\n", device, err_buffer);
